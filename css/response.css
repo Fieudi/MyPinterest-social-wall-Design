@@ -13,16 +13,19 @@
 		width: 95%;
 	}
 	.btn{
-		font-size: 25px;
+		font-size: 40px;
 	}
 	p{
-		font-size: 30px;
+		font-size: 35px;
 	}
 	h3{
-		font-size: 50px;
+		font-size: 55px;
 	}
 	h4{
-		font-size: 40px;
+		font-size: 45px;
+	}
+	h5{
+		font-size: 35px;
 	}
 	#post{
 		column-width: 500px;
@@ -44,13 +47,19 @@
 	}
 	#filterbutton{
 		width: 60%;
-		height: 40px;
+		height: 60px;
 	}
-}
-
-@media screen and (max-width: 760px){
-
-	.btn{
-	font-size: 15px;
+	#loadmorebutton{
+		width: 80%;
+		height: 60px;
 	}
+	/*.tweetstamp{
+		position: absolute;
+		width: 100px;
+		height: 70px;
+		margin-top: -10px;
+		background-color: #000000;
+		z-index: 10;
+		padding-top: 1.2%;
+	}*/
 }
