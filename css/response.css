@@ -1,0 +1,51 @@
+@media screen and (max-width: 1200px){
+	#post{
+		column-width: 240px;
+	}
+	
+	.btn{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	.contains{
+		width: 95%;
+	}
+	.btn{
+		font-size: 25px;
+	}
+	
+	#post{
+		column-width: 500px;
+	}
+	
+	#filterbutton2{
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	#filter{
+		width: 100%;
+		text-align: center;
+	}
+	
+	#filterbutton1{
+		display: none;
+	}
+	#filterbutton{
+		width: 60%;
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 760px){
+	#post{
+	column-width: 280px;
+	}
+	
+	.btn{
+	font-size: 15px;
+	}
+}

@@ -1,0 +1,134 @@
+
+body, html{
+	padding: 20px;
+}
+
+.contains{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn{
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 25px;
+}
+
+.buttongroup{
+	margin-bottom: 20px;
+	width: 23%;
+	margin-left: 10px;
+}
+
+#filterbutton2{
+	display: none;
+}
+
+#post{
+	column-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.post-contains {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	padding: 0px 20px 10px 20px;
+	margin: 15px;
+	display: inline-block;
+	column-break-inside: avoid;
+}
+
+
+#post:hover .post-contains:not(:hover) {
+	opacity: 0.3;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: 	#A9A9A9;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	color: 	#FF4500;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: 	#696969;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color: 	#696969;
+	text-align: left;
+}
+.manualstamp{
+	position: absolute;
+	width: 37px;
+	height: 40px;
+	margin-top: -25px;
+	background-color: #e60000;
+	z-index: 10;
+	padding-top: 0.5%;
+}
+.manualstampfont{
+	font-size: 1.5em;
+	color: #ffffff;
+}
+
+.tweetstamp{
+	position: absolute;
+	width: 37px;
+	height: 40px;
+	margin-top: -10px;
+	background-color: #000000;
+	z-index: 10;
+	padding-top: 1.2%;
+}
+.instamp{
+	position: absolute;
+	width: 37px;
+	height: 40px;
+	margin-top: -25px;
+	background-color: #000000;
+	z-index: 10;
+	padding-top: 1.2%;
+}
+
+#manual-image{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#ins-image{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.post-manual{
+	padding-top: 15px;
+	text-align: center;
+}
+
+.post-twitter{
+	padding-top: 20px;
+	text-align: center;
+}
+.post-instagram{
+	padding-top: 15px;
+	text-align: center;
+}
+
+#loadmore{
+	text-align: center;
+}
+
+#loadmorebutton{
+	box-shadow: 0 1px 4px rgba(34, 25, 25, 0.4);
+	width: 35%;
+	height: 45px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>social wall</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/response.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet/">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet"/>
+		<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"/>		
+	</head>
+	<body>
+		<div class="contains">
+			<div id="filterbutton1" class="button-group">
+				<button class="buttongroup btn btn-default filter-manual" type="button">Manual Message</button>
+				<button class="buttongroup btn btn-info filter-tweet" type="button">Tweet</button> 
+				<button class="buttongroup btn btn-primary filter-ins" type="button">Instagram</button>
+				<button class="buttongroup btn btn-default reset" type="button">Back</button>
+			</div>
+			<div id="filterbutton2" class="dropdown">
+				<button id="filterbutton" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					filter the result 
+					<span class="caret"></span>
+				</button>
+				<ul id="filter" class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					<li class="buttonlist filter-manual"><a href="#"><h5>manual message</h5></a></li>
+					<li class="buttonlist filter-tweet"><a href="#"><h5>Tweet</h5></a></li>
+					<li class="buttonlist filter-ins"><a href="#"><h5>Instagram</h5></a></li>
+					<li class="buttonlist reset"><a href="#"><h5>Back</h5></a></li>
+			  </ul>
+		   </div>
+			<div id="post">
+			</div>
+			<br />
+			<div id="loadmore">
+				<button id="loadmorebutton" class="btn">show more results</button>
+			</div>
+		</div>
+	<script src="javascript/jquery-3.1.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="javascript/posts.js"></script>
+	<script src="javascript/load.js"></script>
+	</body>
+</html>
