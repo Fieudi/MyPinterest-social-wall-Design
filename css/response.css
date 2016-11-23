@@ -14,7 +14,7 @@
 		padding-bottom: 50px;
 	}
 	.btn{
-		font-size: 40px;
+		font-size: 50px;
 	}
 	p{
 		font-size: 40px;
@@ -35,6 +35,10 @@
 	margin-top: 30px;
 	}
 	
+	.post-twitter{
+		padding-top: 55px;
+		text-align: center;
+	}
 	#filterbutton2{
 		display: block;
 		text-align: center;
@@ -59,27 +63,30 @@
 	}
 	
 	.manualstamp{
-		width: 70px;
-		height: 70px;
-		padding-top:2%;
+		width: 80px;
+		height: 89px;
+		padding-top:2.5%;
+		padding-left: 1.5%;
 	}
 	
 	.manualstampfont{
-	font-size: 3em;
+		font-size: 3em;
 	}
 	
 	.tweetstamp{
-		width: 70px;
-		height: 70px;
+		width: 80px;
+		height: 89px;
 		margin-top: -10px;
-		padding-top: 1.2%;
+		padding-top: 5%;
+		padding-left: 3%;
 	}
-	
+
 	.instamp{
-		width: 70px;
-		height: 70px;
+		width: 90px;
+		height: 89px;
 		margin-top: -25px;
-		padding-top: 1.2%;
+		padding-top: 5%;
+		padding-left: 3%;
 	}
 
 }
