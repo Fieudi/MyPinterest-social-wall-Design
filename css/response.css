@@ -11,24 +11,28 @@
 @media screen and (max-width: 980px){
 	.contains{
 		width: 95%;
+		padding-bottom: 50px;
 	}
 	.btn{
 		font-size: 40px;
 	}
 	p{
-		font-size: 35px;
+		font-size: 40px;
 	}
 	h3{
 		font-size: 55px;
 	}
 	h4{
-		font-size: 45px;
+		font-size: 50px;
 	}
 	h5{
 		font-size: 35px;
 	}
 	#post{
 		column-width: 500px;
+	}
+	.post-contains {
+	margin-top: 30px;
 	}
 	
 	#filterbutton2{
@@ -51,15 +55,31 @@
 	}
 	#loadmorebutton{
 		width: 80%;
-		height: 60px;
+		height: 80px;
 	}
-	/*.tweetstamp{
-		position: absolute;
-		width: 100px;
+	
+	.manualstamp{
+		width: 70px;
+		height: 70px;
+		padding-top:2%;
+	}
+	
+	.manualstampfont{
+	font-size: 3em;
+	}
+	
+	.tweetstamp{
+		width: 70px;
 		height: 70px;
 		margin-top: -10px;
-		background-color: #000000;
-		z-index: 10;
 		padding-top: 1.2%;
-	}*/
+	}
+	
+	.instamp{
+		width: 70px;
+		height: 70px;
+		margin-top: -25px;
+		padding-top: 1.2%;
+	}
+
 }
