@@ -112,7 +112,7 @@ function loadTweet(){
 			str = parseURL(str);
 			str = parseMentions(str);
 			str = parseHashtag(str);
-			post.append('<div class="post-contains"><span class="label tweetstamp brandico-twitter-bird">&nbsp;</span><div class="post-twitter"><h3><b>' + items[i].item_data.user.username + '</b></h3><br /><p>' + str + '</p></div></div>');
+			post.append('<div class="post-contains"><span class="label tweetstamp fa fa-twitter fa-lg" aria-hidden="true">&nbsp;</span><div class="post-twitter"><h3><b>' + items[i].item_data.user.username + '</b></h3><br /><p>' + str + '</p></div></div>');
 		}	
 	}
 }
@@ -123,7 +123,7 @@ function loadIns(){
 		if(items[i].service_name == "Instagram"){
 			var str = items[i].item_data.caption;
 			str = parseInsHashtag(str);
-			post.append('<div class="post-contains post-instagram"><span class="label instamp brandico-instagram">&nbsp;</span><a src="' + items[i].item_data.link + '"><img id="ins-image" src="' + items[i].item_data.image.medium + '"></img></a><br /><h4>'
+			post.append('<div class="post-contains post-instagram"><span class="label instamp fa fa-instagram fa-lg" aria-hidden="true">&nbsp;</span><a src="' + items[i].item_data.link + '"><img id="ins-image" src="' + items[i].item_data.image.medium + '"></img></a><br /><h4>'
 			+ items[i].item_data.user.username +'</h4><br /><p>' + str + '</p></div>');
 		}	
 	}
