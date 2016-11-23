@@ -32,7 +32,7 @@
 		column-width: 500px;
 	}
 	.post-contains {
-	margin-top: 30px;
+		margin-top: 30px;
 	}
 	
 	.post-twitter{
@@ -77,16 +77,16 @@
 		width: 80px;
 		height: 89px;
 		margin-top: -10px;
-		padding-top: 5%;
-		padding-left: 3%;
+		padding-top: 3%;
+		padding-left: 2%;
 	}
 
 	.instamp{
 		width: 90px;
 		height: 89px;
 		margin-top: -25px;
-		padding-top: 5%;
-		padding-left: 3%;
+		padding-top: 3%;
+		padding-left: 2.5%;
 	}
 
 }

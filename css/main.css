@@ -19,7 +19,12 @@ body, html{
 	margin-left: 10px;
 }
 
+
 #filterbutton2{
+	display: none;
+}
+
+.fa-4x{
 	display: none;
 }
 

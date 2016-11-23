@@ -36,8 +36,18 @@ function loadData(){
 		post.text("");
 		loadMain(items);
 	});
+	
+	$(window).on('resize', function() {
+		if($(window).width() > 980) {
+			$('.tweetstamp, .instamp').addClass('fa-2x');
+			$('.tweetstamp, .instamp').removeClass('fa-4x');
+		}else{
+			$('.tweetstamp, .instamp').addClass('fa-4x');
+			$('.tweetstamp, .instamp').removeClass('fa-2x');
+		}
+	})
 }
-
+//when load real api, should use $.ajax and $.json
 
 //load contents for main screen
 function loadMain(items){
@@ -51,6 +61,7 @@ function loadMain(items){
 			str = parseMentions(str);
 			str = parseHashtag(str);
 			post.append('<div class="post-contains"><span class="label tweetstamp fa fa-twitter fa-2x" aria-hidden="true"><p>&nbsp;</p></span><div class="post-twitter"><h3><b>' + items[i].item_data.user.username + '</b></h3><br /><p>' + str + '</p></div></div>');
+
 		}
 		else{
 			var str = items[i].item_data.caption;
