@@ -3,7 +3,7 @@ this is a project will static display the event from Tweet, Instagram and other 
 
 
 ## open in website
-[open](https://fieudi.github.io/social-wall-code/) the project directly in browser.
+[open](https://fieudi.github.io/MyPinterest-social-wall-Design/) the project directly in browser.
 
 ## open in local
 `git clone https://github.com/Fieudi/MyPinterest-social-wall-Design.git` to download the project into local<br />
