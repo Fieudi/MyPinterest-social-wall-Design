@@ -6,7 +6,7 @@ this is a project will static display the event from Tweet, Instagram and other 
 [open](https://fieudi.github.io/social-wall-code/) the project directly in browser.
 
 ## open in local
-`https://github.com/Fieudi/MyPinterest-social-wall-Design.git` to download the project into local<br />
+`git clone https://github.com/Fieudi/MyPinterest-social-wall-Design.git` to download the project into local<br />
 open the index.html file in browser.<br />
 please remove the original key in google map api and new York times api and place your private keys.
 
