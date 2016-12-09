@@ -1,5 +1,5 @@
 # social-wall-code
-this is a project will static display the event from Tweet, Instagram and other website. there is a filter can modify the result. 
+this is a project will static display events like Pinterest from Tweet, Instagram and other website. there is a filter can modify the result. 
 
 
 ## open in website
