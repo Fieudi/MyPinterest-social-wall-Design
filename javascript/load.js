@@ -15,7 +15,7 @@ function loadData(){
 			loadIns();
 		}
 	})
-	//load different message
+	//load different message, filter message
 	$('.filter-manual').on('click',	function(){
 		post.text("");
 		status = "manual";
