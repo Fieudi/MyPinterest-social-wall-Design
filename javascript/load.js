@@ -3,7 +3,7 @@ var post = $('#post');
 function loadData(){
 	var status = "main";
 	loadMain(items);
-	// load more button click
+	// load more Button click
 	$('#loadmorebutton').on('click', function(){
 		if(status == "main"){
 			loadMain(items);
